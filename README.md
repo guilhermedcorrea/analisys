@@ -16,7 +16,7 @@
 
 
 #Deploy App
-# instancia GUNICORN
+# GUNICORN
 #gunicorn --bind 0.0.0.0:5000 'app:create_app()'
 
 # seleciona quantidade de workers respeitando a regra (2*CPU)+1 workers 2 x a quantidade de cores da maquina e +1
